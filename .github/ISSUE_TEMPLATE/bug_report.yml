@@ -1,0 +1,28 @@
+name: Bug report
+description: Report reproducible incorrect behavior
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: textarea
+    attributes:
+      label: What happened?
+      description: Include the workflow and expected behavior. Remove confidential data.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Minimal reproduction
+      description: Use synthetic or public data.
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Version or commit
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Extraction mode
+      options: [Deterministic, AI-assisted, Not applicable]
+    validations:
+      required: true

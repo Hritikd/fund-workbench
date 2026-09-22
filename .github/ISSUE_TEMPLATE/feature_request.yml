@@ -1,0 +1,21 @@
+name: Feature request
+description: Propose a focused workflow improvement
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: textarea
+    attributes:
+      label: Workflow problem
+      description: Describe the repeated task and current workaround.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Proposed outcome
+      description: Explain the artifact or decision this should improve.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Evidence and failure modes
+      description: What data is available, and what must never happen?

@@ -1,0 +1,7 @@
+{
+  "name": "Early industrial software",
+  "required_terms": ["manufacturer", "paying"],
+  "preferred_terms": ["retention", "automation", "inspection"],
+  "excluded_terms": ["gambling"],
+  "questions": ["Can deployment become repeatable without services-heavy work?"]
+}
